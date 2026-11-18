@@ -27,7 +27,7 @@ defineProps({
   }
 })
 
-const title = '迈沃管理系统'
+const title = '三盈会管理系统'
 const logo = Logo
 </script>
 

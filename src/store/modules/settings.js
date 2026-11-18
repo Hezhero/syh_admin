@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 export const useSettingsStore = defineStore('settings', {
   state: () => ({
-    title: '苏分宝',
+    title: '三盈会',
     theme: '#1890ff',
     showSettings: false,
     tagsView: true,
@@ -10,7 +10,7 @@ export const useSettingsStore = defineStore('settings', {
     sidebarLogo: true,
     showFooter: true,
     footerTxt: '© 2018-2026 MSHOP <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">All Rights Reserved</a>',
-    caseNumber: '苏ICP备17030620号-5'
+    caseNumber: '鲁ICP备2022004140号-1'
   }),
   actions: {
     changeSetting(data) {

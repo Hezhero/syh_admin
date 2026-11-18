@@ -19,7 +19,7 @@
         </el-col>
         <el-col v-bind="grid" class="ivu-mb">
           <el-card :bordered="false">
-            <router-link :to="{ path: '/order/mailvorTbOrder' }">
+            <router-link :to="{ path: '/order/junchenTbOrder' }">
               <el-icon style="color: #ff9c6e"><Tickets /></el-icon>
               <p>订单管理</p>
             </router-link>

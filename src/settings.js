@@ -2,7 +2,7 @@ export default {
   /**
    * @description 网站标题
    */
-  title: '苏分宝',
+  title: '三盈会',
   /**
    * @description 是否显示 tagsView
    */
@@ -46,5 +46,5 @@ export default {
   /**
    * 备案号
    */
-  caseNumber: '苏ICP备17030620号-5'
+  caseNumber: '鲁ICP备2022004140号-1'
 }

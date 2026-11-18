@@ -2,7 +2,7 @@
   "name": "mshop-web-vue3",
   "version": "5.1.0",
   "description": "mshop admin - Vue 3 upgrade",
-  "author": "mailvor",
+  "author": "junchen",
   "type": "module",
   "scripts": {
     "dev": "vite --mode dev",

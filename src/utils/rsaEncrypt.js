@@ -5,14 +5,8 @@ import JSEncrypt from 'encryptlong'
 
 const publicKey = 'MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDYifNGLjD/7ILujCPeTAh0anVze/2Qv65M9RpcU6uY6kJ67GDEdTZweZIh+E3nAFZQ9eLF+35Nnh9W2dEOfbJf949sK6eVoO8E+UL1TMB3QpMs6rmg6LrDCDNBO7Cdt05mln+lAgLFbDpOe3h76JxvtzCzT/I5EUkNkHQBQCcZNwIDAQAB'
 
-const privateKey = 'MIIBUwIBADANBgkqhkiG9w0BAQEFAASCAT0wggE5AgEAAkEA0vfvyTdGJkdbHkB8\n' +
-  'mp0f3FE0GYP3AYPaJF7jUd1M0XxFSE2ceK3k2kw20YvQ09NJKk+OMjWQl9WitG9p\n' +
-  'B6tSCQIDAQABAkA2SimBrWC2/wvauBuYqjCFwLvYiRYqZKThUS3MZlebXJiLB+Ue\n' +
-  '/gUifAAKIg1avttUZsHBHrop4qfJCwAI0+YRAiEA+W3NK/RaXtnRqmoUUkb59zsZ\n' +
-  'UBLpvZgQPfj1MhyHDz0CIQDYhsAhPJ3mgS64NbUZmGWuuNKp5coY2GIj/zYDMJp6\n' +
-  'vQIgUueLFXv/eZ1ekgz2Oi67MNCk5jeTF2BurZqNLR3MSmUCIFT3Q6uHMtsB9Eha\n' +
-  '4u7hS31tj1UWE+D+ADzp59MGnoftAiBeHT7gDMuqeJHPL4b+kC+gzV4FGTfhR9q3\n' +
-  'tTbklZkD2A=='
+// 注意：前端只做加密，私钥只应存在于服务端。此前这里硬编码了一份 RSA 私钥，
+// 属安全隐患（前端私钥无保密意义且与服务端配对后会使传输加密失效），已移除。
 
 // 加密
 // export function encrypt(txt) {
@@ -27,13 +21,6 @@ export function encrypt(txt) {
 
   return encryptor.encryptLong(txt)
 }
-// 解密
-export function decrypt(txt) {
-  const encryptor = new JSEncrypt()
-  encryptor.setPrivateKey(privateKey)
-  return encryptor.decrypt(txt)
-}
-
 // Certificate profiles span many RSA blocks. Preserve each ciphertext block's
 // modulus width; encryptlong concatenates variable-width hexadecimal values.
 export function encryptPaymentProfile(text) {

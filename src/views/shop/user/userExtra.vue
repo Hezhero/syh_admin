@@ -16,7 +16,7 @@
               width="80">
               <template #default="scope">
                 <div>
-                  <el-tag v-if="scope.row.name == 'sfb'" style="background-color: #85c577; color: white">苏分宝</el-tag>
+                  <el-tag v-if="scope.row.name == 'sfb'" style="background-color: #85c577; color: white">三盈会</el-tag>
                   <el-tag v-else  style="background-color: #B68567; color: white">{{scope.row.name}}</el-tag>
                 </div>
               </template>

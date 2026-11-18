@@ -3,9 +3,9 @@
     <el-form ref="form" :model="form" :rules="rules" size="small" label-width="80px">
 
       <el-form-item label="好单库 CMS 完整地址" prop="kuCid" label-width="200px">
-        <el-input v-model="form.kuCid" placeholder="http://jkj.mailvor.com/?cid=FazG6352" style="width: 470px;" />
+        <el-input v-model="form.kuCid" placeholder="http://jkj.syh.hzhero.cn/?cid=FazG6352" style="width: 470px;" />
         <p style="color: red">申请链接：<a href="https://user.cms.haodanku.com/record">https://user.cms.haodanku.com/record</a></p>
-        <p style="color: red">填写完整地址，例如：http://jkj.mailvor.com/?cid=FazG6352</p>
+        <p style="color: red">填写完整地址，例如：http://jkj.syh.hzhero.cn/?cid=FazG6352</p>
       </el-form-item>
       <el-form-item label="app分享地址*" label-width="200px">
         <el-input v-model="form.share" style="width: 470px;" />

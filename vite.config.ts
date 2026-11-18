@@ -26,6 +26,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       }
     },
     server: {
+      allowedHosts: ["hzh.myvnc.com","ss.hzhero.cn"],
       port: Number(env.VITE_PORT) || 8013,
       host: '0.0.0.0',
       open: env.VITE_OPEN === 'true',

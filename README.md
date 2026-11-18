@@ -1,10 +1,10 @@
-# 苏分宝淘客系统 · 管理端
+# 三盈会淘客系统 · 管理端
 
-苏分宝是一套包含 **Flutter APP、运营管理后台和 Java 服务端** 的淘客系统，围绕商品查券、推广转链、订单采集、佣金结算、分销与提现开展业务。
+三盈会是一套包含 **Flutter APP、运营管理后台和 Java 服务端** 的淘客系统，围绕商品查券、推广转链、订单采集、佣金结算、分销与提现开展业务。
 
 本仓库为开源版管理端 `sfb_admin`，已升级为 **Vue 3 + Element Plus + Vite**。开源版功能按当前管理端、`sfb_server`、`sfb` 三个项目整理；商业版能力与交付范围参照官方文档。
 
-[官方文档](https://www.mailvor.com) · [功能对比](https://www.mailvor.com/01.介绍/30.functional.html) · [演示体验](https://www.mailvor.com/01.介绍/20.demo.html) · [版本与授权](https://www.mailvor.com/01.介绍/40.price.html)
+[官方文档](https://syh.hzhero.cn) · [功能对比](https://syh.hzhero.cn/01.介绍/30.functional.html) · [演示体验](https://syh.hzhero.cn/01.介绍/20.demo.html) · [版本与授权](https://syh.hzhero.cn/01.介绍/40.price.html)
 
 ## 项目组成
 
@@ -60,7 +60,7 @@
 | 商业高级版 | 全部源码 |
 | 商业企业级版 | 全部源码，另含在线打包源码与文档站源码 |
 
-价格、授权主体数量、外包交付权限与升级服务，请查看[版本与授权说明](https://www.mailvor.com/01.介绍/40.price.html)，README 不维护报价副本。
+价格、授权主体数量、外包交付权限与升级服务，请查看[版本与授权说明](https://syh.hzhero.cn/01.介绍/40.price.html)，README 不维护报价副本。
 
 ## 技术栈与运行环境
 
@@ -80,9 +80,9 @@
 
 先准备 MySQL、Redis 与 SQL 初始化数据，配置并启动 `sfb_server` 的 `mshop-admin`。APP 联调还需启动 `mshop-app`。
 
-- [SQL 获取](https://www.mailvor.com/02.开源版本/01.开发文档/10.db-get.html)
-- [服务端启动](https://www.mailvor.com/02.开源版本/01.开发文档/40.start-backend.html)
-- [APP 启动](https://www.mailvor.com/02.开源版本/01.开发文档/60.start-app.html)
+- [SQL 获取](https://syh.hzhero.cn/02.开源版本/01.开发文档/10.db-get.html)
+- [服务端启动](https://syh.hzhero.cn/02.开源版本/01.开发文档/40.start-backend.html)
+- [APP 启动](https://syh.hzhero.cn/02.开源版本/01.开发文档/60.start-app.html)
 
 ### 2. 安装依赖并启动
 
@@ -133,12 +133,12 @@ src/
 
 | 内容 | 入口 |
 | --- | --- |
-| 项目介绍与技术架构 | [框架介绍](https://www.mailvor.com/01.介绍/10.introduce.html) |
-| 开源版开发与部署 | [开发文档](https://www.mailvor.com/02.开源版本/01.开发文档/00.introduce.html) |
-| 商业版能力清单 | [功能对比](https://www.mailvor.com/01.介绍/30.functional.html) |
-| APP / 小程序及后台体验 | [演示中心](https://www.mailvor.com/01.介绍/20.demo.html) |
-| 商业版搭建流程 | [商业版文档](https://www.mailvor.com/03.商业版本/01.前期准备/10.introduce.html) |
-| 授权与咨询 | [版本与授权](https://www.mailvor.com/01.介绍/40.price.html#联系客服) |
+| 项目介绍与技术架构 | [框架介绍](https://syh.hzhero.cn/01.介绍/10.introduce.html) |
+| 开源版开发与部署 | [开发文档](https://syh.hzhero.cn/02.开源版本/01.开发文档/00.introduce.html) |
+| 商业版能力清单 | [功能对比](https://syh.hzhero.cn/01.介绍/30.functional.html) |
+| APP / 小程序及后台体验 | [演示中心](https://syh.hzhero.cn/01.介绍/20.demo.html) |
+| 商业版搭建流程 | [商业版文档](https://syh.hzhero.cn/03.商业版本/01.前期准备/10.introduce.html) |
+| 授权与咨询 | [版本与授权](https://syh.hzhero.cn/01.介绍/40.price.html#联系客服) |
 
 演示中心包含商业版功能与租户演示，不能直接作为当前开源仓库的功能验收清单。开源版以本 README 和对应源码为准，商业版以官方文档及具体交付版本为准。
 
@@ -150,13 +150,13 @@ src/
 2. 商用必须保留版权信息，并支付商用授权费用。
 3. 禁止将本项目的代码与资源进行任何形式的出售。
 
-具体授权范围与交付权益见[版本与授权说明](https://www.mailvor.com/01.介绍/40.price.html)。第三方源码、插件及二进制文件的版权与许可按各自声明执行。
+具体授权范围与交付权益见[版本与授权说明](https://syh.hzhero.cn/01.介绍/40.price.html)。第三方源码、插件及二进制文件的版权与许可按各自声明执行。
 
-Copyright © 2018–2026 MAILVOR。苏分宝商标与著作权归苏州迈沃通信有限公司所有。All rights reserved.
+Copyright © 2018–2026 JUNCHEN。三盈会商标与著作权归济南隽宸信息科技有限公司所有。All rights reserved.
 
 ## 界面演示（商业版）
 
-以下截图取自官方文档 `tsq-docs/docs/public/home`，使用其现有缩略图，按浏览路径排列。它们展示商业版演示 APP 的界面，包含一键价保、淘宝闪购等商业版功能；当前开源版界面与功能请以上文说明为准。更多体验入口见[演示中心](https://www.mailvor.com/01.介绍/20.demo.html)。
+以下截图取自官方文档 `tsq-docs/docs/public/home`，使用其现有缩略图，按浏览路径排列。它们展示商业版演示 APP 的界面，包含一键价保、淘宝闪购等商业版功能；当前开源版界面与功能请以上文说明为准。更多体验入口见[演示中心](https://syh.hzhero.cn/01.介绍/20.demo.html)。
 
 <table>
   <tr>
